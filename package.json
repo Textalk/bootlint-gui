@@ -1,6 +1,6 @@
 {
   "name": "bootlint-gui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple GUI for displaying bootlint errors and warnings",
   "main": "index.js",
   "scripts": {},
@@ -12,13 +12,15 @@
     "gui",
     "validator"
   ],
-  "author": "Textalk AB",
-  "contributors": [
-    {
-      "name": "Josef Engelfrost",
-      "email": "josef.engelfrost@josf.se",
-      "url": "http://josf.se"
-    }
-  ],
+  "homepage": "https://github.com/Textalk/bootlint-gui",
+  "bugs": {
+    "url": "https://github.com/Textalk/bootlint-gui/issues"
+  },
+  "author":
+  {
+    "name": "Josef Engelfrost",
+    "email": "josef.engelfrost@josf.se",
+    "url": "http://josf.se"
+  },
   "license": "ISC"
 }
