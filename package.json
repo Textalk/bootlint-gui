@@ -1,0 +1,24 @@
+{
+  "name": "bootlint-gui",
+  "version": "0.0.1",
+  "description": "A simple GUI for displaying bootlint errors and warnings",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "bootlint",
+    "bootstrap",
+    "linter",
+    "lint",
+    "gui",
+    "validator"
+  ],
+  "author": "Textalk AB",
+  "contributors": [
+    {
+      "name": "Josef Engelfrost",
+      "email": "josef.engelfrost@josf.se",
+      "url": "http://josf.se"
+    }
+  ],
+  "license": "ISC"
+}
