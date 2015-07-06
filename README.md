@@ -1,8 +1,9 @@
 Bootlint GUI
 ============
 
-This plugin will show your [bootlint](https://github.com/twbs/bootlint) messages
-in a widget in the browser window instead of hiding them in the console.
+Bootlint GUI will show your [bootlint](https://github.com/twbs/bootlint) messages in a widget in
+the browser window instead of hiding them in the console.
+
 
 Installing/Using
 ----------------
