@@ -1,6 +1,6 @@
 {
   "name": "bootlint-gui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple GUI for displaying bootlint errors and warnings",
   "main": "index.js",
   "scripts": {},
