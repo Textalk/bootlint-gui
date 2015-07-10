@@ -1,13 +1,10 @@
 .bootlint {
-  width: 100%;
+  width: calc(100% - 70px);
   position: fixed;
   bottom: 0;
   right: 0;
   background-color: #6f5499;
   color: white;
-  border-top-left-radius: 5px;
-  -webkit-transition: 0.5s;
-          transition: 0.5s;
 }
 
 .bootlint.open .bootlint-body {
@@ -16,13 +13,14 @@
 
 .bootlint a,
 .bootlint a:visited,
+.bootlint a:focus,
 .bootlint a:hover,
 .bootlint a:active {
   color: white;
-  font-weight: bold;
   text-decoration: none;
 }
 .bootlint a:hover,
+.bootlint a:focus,
 .bootlint a:active {
   text-decoration: underline;
 }
@@ -30,15 +28,10 @@
 .bootlint-heading {
   position: absolute;
   display: block;
+  font-weight: bold;
   right: 0;
   top: -42px;
   height: 42px;
-  /*-webkit-transform-origin: bottom left;
-      -ms-transform-origin: bottom left;
-          transform-origin: bottom left;
-  -webkit-transform: rotate(-90deg);
-      -ms-transform: rotate(-90deg);
-          transform: rotate(-90deg);*/
   background-color: #6f5499;
   padding: 12px;
   border-top-left-radius: 5px;
