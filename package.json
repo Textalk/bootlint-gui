@@ -1,8 +1,8 @@
 {
   "name": "bootlint-gui",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple GUI for displaying bootlint errors and warnings",
-  "main": "index.js",
+  "main": "dist/bootlint-gui.js",
   "scripts": {},
   "keywords": [
     "bootlint",
@@ -10,17 +10,27 @@
     "linter",
     "lint",
     "gui",
-    "validator"
+    "widget",
+    "validator",
+    "validate",
+    "browser"
   ],
   "homepage": "https://github.com/Textalk/bootlint-gui",
   "bugs": {
     "url": "https://github.com/Textalk/bootlint-gui/issues"
   },
-  "author":
-  {
+  "author": {
     "name": "Josef Engelfrost",
     "email": "josef.engelfrost@josf.se",
     "url": "http://josf.se"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootlint": "^0.12.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-uglify": "^1.2.0"
+  }
 }

@@ -1,0 +1,12 @@
+{
+  "undef": true,
+  "unused": true,
+  "browser": true,
+  "trailing": true,
+  "indent": 2,
+  "globals": {
+    "bootlint": false,
+    "document": false,
+    "require": true
+  }
+}
