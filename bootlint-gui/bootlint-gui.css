@@ -1,0 +1,44 @@
+.bootlint {
+  width: calc(100% - 70px);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #6f5499;
+  color: white;
+}
+
+.bootlint.open .bootlint-body {
+  display: block;
+}
+
+.bootlint a,
+.bootlint a:visited,
+.bootlint a:focus,
+.bootlint a:hover,
+.bootlint a:active {
+  color: white;
+  text-decoration: none;
+}
+.bootlint a:hover,
+.bootlint a:focus,
+.bootlint a:active {
+  text-decoration: underline;
+}
+
+.bootlint-heading {
+  position: absolute;
+  display: block;
+  font-weight: bold;
+  right: 0;
+  top: -42px;
+  height: 42px;
+  background-color: #6f5499;
+  padding: 12px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.bootlint-body {
+  padding: 12px;
+  display: none;
+}

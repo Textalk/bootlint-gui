@@ -1,0 +1,23 @@
+{
+  "name": "gh-pages-for-bootlint-gui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Textalk/bootlint-gui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Textalk/bootlint-gui/issues"
+  },
+  "homepage": "https://github.com/Textalk/bootlint-gui#readme",
+  "dependencies": {
+    "bootlint-gui": "^1.0.1",
+    "gulp": "^3.9.0"
+  }
+}
