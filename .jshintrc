@@ -5,7 +5,8 @@
   "trailing": true,
   "indent": 2,
   "globals": {
-    "bootlint":false,
-    "document": false
+    "bootlint": false,
+    "document": false,
+    "require": true
   }
 }

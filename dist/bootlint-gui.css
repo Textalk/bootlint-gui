@@ -1,20 +1,19 @@
 .bootlint {
-  width: 400px;
+  width: 100%;
   position: fixed;
   bottom: 0;
-  right: -400px;
+  right: 0;
   background-color: #6f5499;
   color: white;
-  min-height: 100px;
   border-top-left-radius: 5px;
   -webkit-transition: 0.5s;
           transition: 0.5s;
 }
-.bootlint:hover {
-  right: 0;
-  -webkit-transition: 0.5s;
-          transition: 0.5s;
+
+.bootlint.open .bootlint-body {
+  display: block;
 }
+
 .bootlint a,
 .bootlint a:visited,
 .bootlint a:hover,
@@ -27,21 +26,26 @@
 .bootlint a:active {
   text-decoration: underline;
 }
+
 .bootlint-heading {
   position: absolute;
-  left: 0;
-  bottom: 0;
-  -webkit-transform-origin: bottom left;
+  display: block;
+  right: 0;
+  top: -42px;
+  height: 42px;
+  /*-webkit-transform-origin: bottom left;
       -ms-transform-origin: bottom left;
           transform-origin: bottom left;
   -webkit-transform: rotate(-90deg);
       -ms-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+          transform: rotate(-90deg);*/
   background-color: #6f5499;
-  padding: 12px 12px 0;
+  padding: 12px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
+
 .bootlint-body {
   padding: 12px;
+  display: none;
 }
