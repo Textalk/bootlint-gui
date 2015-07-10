@@ -66,10 +66,9 @@
       '  <a href="https://github.com/twbs/bootlint/wiki/' + problem.id + '" target="_blank">' +
       '    <code>' + problem.id + '</code>' +
       '  </a>' +
-      '  ' + problem.message +
       '  <a href="https://github.com/twbs/bootlint/wiki/' + problem.id + '" target="_blank" ' +
       'title="Read more about this message in the Wiki">' +
-      '    more&nbsp;<i class="fa fa-external-link"></i>' +
+      '    ' + problem.message + '<i class="fa fa-external-link"></i>' +
       '  </a>' +
       '</p>';
   };
