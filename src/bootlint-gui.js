@@ -65,7 +65,7 @@
       '<p>' +
       '  <a href="https://github.com/twbs/bootlint/wiki/' + problem.id + '" target="_blank">' +
       '    <code>' + problem.id + '</code>' +
-      '    ' + problem.message +
+      '    ' + problem.message.replace('<', '&lt;').replace('>', '&gt;') +
       '    <i class="fa fa-external-link"></i>' +
       '  </a>' +
       '</p>';
